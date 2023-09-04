@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Montserrat:ital,wght@1,600&family=Nunito+Sans:opsz,wght@6..12,600&display=swap');
 
 #root {
 box-sizing: border-box;
@@ -19,12 +18,14 @@ padding: 0;
 
 .nav-list {
     display: flex;
+    width:100%;
+    position:absolute;
+    left:30px;
+    top:20px;
 }
 
 .list-items {
-  width:10%;
-  padding:1.5em;
-  margin:1.5em;
+  padding:1em;
   position:relative;
   left:450px;
 }
@@ -32,14 +33,34 @@ padding: 0;
  .link {
   color:#fff;
   text-decoration: none;
-  font-family: 'Heebo', sans-serif;
-  font-size: 1.1em;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: #ffc76d;
+  border-radius: 8px;
 }
 
 .title {
   color:#fff;
   position:relative;
   bottom:100px;
+}
+
+.logo {
+  position: absolute;
+  left:100px;
+  top:25px;
+}
+
+.description {
+  color:rgb(250, 250, 250);
+  position:relative;
+  top:75px;
+  left:85px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
