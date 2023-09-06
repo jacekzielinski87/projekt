@@ -6,10 +6,9 @@ import React from "react";
 const Main = () => {
     return (
         <div className="Main">
-            <div className="Grid">First Grid</div>
-            <div className="Grid">First Two</div>
-            <div className="Grid">First Three</div>
-            <div className="Grid">First Four</div>
+            <div className="Grid-item-1">Sidebar Content 1</div>
+            <div className="Grid-item-2">Center content</div>
+            <div className="Grid-item-3">Sidebar content 2</div>
         </div>
     )
 }
